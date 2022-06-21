@@ -1,0 +1,47 @@
+body{
+    font-family: 'Georgia', serif;
+    background-color:white;
+}
+/* navbar css starts here  */
+.bg-light{
+    background-color:rgb(124, 234, 91)!important;
+}
+
+.navbar-brand{
+    font-family: 'fantasy';
+    font-size: 2rem;
+    color:rgb(17, 62, 74)!important;
+}
+
+.nav-link{
+    color:rgb(2, 2, 10)!important;
+    font-family: "uni-monospace";
+    font-size: 2.2rem;
+}
+
+.nav-link:hover{
+    background-color: #9da129;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+    background-color: rgb(179, 248, 158);
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(144, 148, 28)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+}
+
+.btn-info:hover{
+    background-color: rgb(245, 161, 5)!important;
+}
+
+#tableheading {
+    color: #90932b;
+    font-size: larger;
+}

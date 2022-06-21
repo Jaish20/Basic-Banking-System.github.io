@@ -1,0 +1,140 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Georgia", serif;
+    background-color: rgb(255 , 255, 255);
+    width: 201.5vh;
+    height: 50vh;
+}
+
+/* splash screen css starts here  */
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand {
+    font-family: 'fantasy';
+    font-size: 3rem;
+    font-style: normal;
+    color: rgb(26, 26, 29) !important;
+}
+
+.nav-link {
+    color: rgb(40, 40, 43) !important;
+    font-family: "uni-monospace";
+    font-size: 2.2rem;
+    font-variant-position: super;
+}
+
+.nav-link:hover {
+    background-color: #f1b7b7;
+}
+
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content {
+    height: 100vh;
+    background-image: url(https://freepngimg.com/thumb/online_banking/165363-banking-hd-image-free.png);
+    background-size: contain;
+    background-position: 50vh;
+    background-position: 90% 80%;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    color: rgb(65, 63, 63);
+    padding: 2rem;
+    margin-bottom: 2vh;
+    margin-right: 0vh;
+    margin-left: 0vh;
+}
+
+
+.all-users {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 120%;
+    background-color: #fff;
+    color: #f41111 !important;
+    transition: 0.3s;
+    background-color: #72777aa2
+}
+
+.all-users:hover {
+    text-decoration: none;
+    background-color: rgb(255, 228, 233);
+}
+
+.blue {
+    color: rgb(242, 255, 0)
+}
+
+.btn-btn-info {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 120%;
+    background-color: #fff;
+    color: #f41111 !important;
+    transition: 0.3s;
+    background-color: #72777aa2
+}
+.btn-btn-info:hover {
+    text-decoration: none;
+    background-color: rgb(255, 228, 233);
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content {
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row {
+    padding: 25vh 0;
+}
+
+.get-started-content a {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff !important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover {
+    background-color: #017ab6;
+    text-decoration: none;
+}
+
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer {
+    background-color: #c05050;
+}
+
+.mename {
+    text-align: center;
+    text-shadow: #ffffff;
+}
+
+/* footer css ends here  */
